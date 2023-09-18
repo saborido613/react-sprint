@@ -1,0 +1,43 @@
+*{margin: 0;
+padding: 0;}
+
+:root { 
+  --font-body:'Heebo', sans-serif;
+  --color-preto: #000000;
+  --color-branco: #ffffff;
+}
+
+.titulo-menu {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+.bg-dark {background-color: var(--color-preto);}
+.bg-image {background-image: url(./imagens/imagem-menu.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.altura-container { min-height: 80vh;}
+
+
+.titulo-main { font-size: 6vmax;}
+
+.text-white {color: var(--color-branco);}
+
+.grid {
+  display: grid;
+}
+
+.space-evenly {
+	align-content: space-evenly;
+}
+
+.center{
+	align-self: center;
+}
